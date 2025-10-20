@@ -101,6 +101,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Modelos\Cliente.cs" />
     <Compile Include="DBHelper.cs" />
     <Compile Include="frmCategoriaProducto.cs">
       <SubType>Form</SubType>
@@ -150,8 +151,18 @@
     <Compile Include="frmSeguridad.Designer.cs">
       <DependentUpon>frmSeguridad.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAL\Repositorios\IRepositorioUsuario.cs" />
+    <Compile Include="DAL\Repositorios\IRepositorioCliente.cs" />
+    <Compile Include="BLL\Servicios\IServicioUsuario.cs" />
+    <Compile Include="BLL\Servicios\IServicioCliente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAL\Repositorios\RepositorioUsuario.cs" />
+    <Compile Include="Core\Modelos\Usuario.cs" />
+    <Compile Include="DAL\Repositorios\RepositorioCliente.cs" />
+    <Compile Include="BLL\Servicios\ServicioUsuario.cs" />
+    <Compile Include="BLL\Servicios\ServicioCliente.cs" />
+    <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="frmCategoriaProducto.resx">
       <DependentUpon>frmCategoriaProducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,5 +253,6 @@
   <ItemGroup>
     <None Include="Resources\acerca-de %281%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

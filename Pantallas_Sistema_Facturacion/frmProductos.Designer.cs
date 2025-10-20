@@ -1,4 +1,4 @@
-﻿namespace Pantallas_Sistema_Facturacion
+﻿namespace 
 {
     partial class frmProductos
     {

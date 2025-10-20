@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pantallas_Sistema_Facturacion.Properties
+namespace .Properties
 {
 
 

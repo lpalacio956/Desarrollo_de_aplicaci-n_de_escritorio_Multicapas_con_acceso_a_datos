@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pantallas_Sistema_Facturacion
+namespace 
 {
     public partial class frmFacturas : MaterialForm
     {

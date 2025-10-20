@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
-namespace Pantallas_Sistema_Facturacion
+namespace 
 {
     public partial class FrmPrincipal : MaterialForm
     {

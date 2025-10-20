@@ -1,4 +1,4 @@
-﻿namespace Pantallas_Sistema_Facturacion
+﻿namespace 
 {
     partial class FrmPrincipal
     {
@@ -202,7 +202,7 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnSalir.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.cerrar_sesion;
+            this.btnSalir.Image = global::.Properties.Resources.cerrar_sesion;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.Location = new System.Drawing.Point(-1, 198);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
@@ -215,7 +215,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.Logo;
+            this.pictureBox1.Image = global::.Properties.Resources.Logo;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
@@ -231,7 +231,7 @@
             this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProductos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnProductos.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.Productos;
+            this.btnProductos.Image = global::.Properties.Resources.Productos;
             this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProductos.Location = new System.Drawing.Point(0, 272);
             this.btnProductos.Margin = new System.Windows.Forms.Padding(4);
@@ -248,7 +248,7 @@
             this.btnCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategorias.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCategorias.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCategorias.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.categorias;
+            this.btnCategorias.Image = global::.Properties.Resources.categorias;
             this.btnCategorias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCategorias.Location = new System.Drawing.Point(-1, 348);
             this.btnCategorias.Margin = new System.Windows.Forms.Padding(4);
@@ -265,7 +265,7 @@
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnClientes.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.clientes;
+            this.btnClientes.Image = global::.Properties.Resources.clientes;
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClientes.Location = new System.Drawing.Point(-1, 199);
             this.btnClientes.Margin = new System.Windows.Forms.Padding(4);
@@ -278,7 +278,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.Logo;
+            this.pictureBox2.Image = global::.Properties.Resources.Logo;
             this.pictureBox2.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
@@ -294,7 +294,7 @@
             this.btnInformes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInformes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInformes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnInformes.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.informe;
+            this.btnInformes.Image = global::.Properties.Resources.informe;
             this.btnInformes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInformes.Location = new System.Drawing.Point(0, 272);
             this.btnInformes.Margin = new System.Windows.Forms.Padding(4);
@@ -311,7 +311,7 @@
             this.btnFacturas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFacturas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFacturas.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnFacturas.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.facturas;
+            this.btnFacturas.Image = global::.Properties.Resources.facturas;
             this.btnFacturas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFacturas.Location = new System.Drawing.Point(-1, 199);
             this.btnFacturas.Margin = new System.Windows.Forms.Padding(4);
@@ -323,7 +323,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.Logo;
+            this.pictureBox3.Image = global::.Properties.Resources.Logo;
             this.pictureBox3.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
@@ -339,7 +339,7 @@
             this.btnRoles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRoles.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRoles.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRoles.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.roles__2_;
+            this.btnRoles.Image = global::.Properties.Resources.roles__2_;
             this.btnRoles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRoles.Location = new System.Drawing.Point(0, 272);
             this.btnRoles.Margin = new System.Windows.Forms.Padding(4);
@@ -356,7 +356,7 @@
             this.btnSeguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeguridad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeguridad.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnSeguridad.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.seguridad;
+            this.btnSeguridad.Image = global::.Properties.Resources.seguridad;
             this.btnSeguridad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSeguridad.Location = new System.Drawing.Point(-1, 348);
             this.btnSeguridad.Margin = new System.Windows.Forms.Padding(4);
@@ -374,7 +374,7 @@
             this.btnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpleados.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEmpleados.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.empleados;
+            this.btnEmpleados.Image = global::.Properties.Resources.empleados;
             this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpleados.Location = new System.Drawing.Point(-1, 199);
             this.btnEmpleados.Margin = new System.Windows.Forms.Padding(4);
@@ -386,7 +386,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.Logo;
+            this.pictureBox4.Image = global::.Properties.Resources.Logo;
             this.pictureBox4.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
@@ -402,7 +402,7 @@
             this.btnAcerca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcerca.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAcerca.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAcerca.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.acerca_de__1_;
+            this.btnAcerca.Image = global::.Properties.Resources.acerca_de__1_;
             this.btnAcerca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAcerca.Location = new System.Drawing.Point(0, 272);
             this.btnAcerca.Margin = new System.Windows.Forms.Padding(4);
@@ -419,7 +419,7 @@
             this.btnAyuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAyuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAyuda.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAyuda.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.ayuda;
+            this.btnAyuda.Image = global::.Properties.Resources.ayuda;
             this.btnAyuda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAyuda.Location = new System.Drawing.Point(-1, 199);
             this.btnAyuda.Margin = new System.Windows.Forms.Padding(4);
@@ -431,7 +431,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.Logo;
+            this.pictureBox5.Image = global::.Properties.Resources.Logo;
             this.pictureBox5.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";

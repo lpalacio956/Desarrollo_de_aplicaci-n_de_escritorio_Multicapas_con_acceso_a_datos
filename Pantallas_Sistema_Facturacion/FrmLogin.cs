@@ -1,69 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using .BLL.Servicios;
+using .DAL.Repositorios;
 
-namespace Pantallas_Sistema_Facturacion
+namespace 
 {
     public partial class FrmLogin : Form
     {
-        
+        private readonly IServicioUsuario _servicioUsuario;
 
         public FrmLogin()
         {
             InitializeComponent();
+            _servicioUsuario = new ServicioUsuario(new RepositorioUsuario());
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }   
-
-        private void TxtUsuario_Click(object sender, EventArgs e)
-        {
-
         }
+
+        private void TxtUsuario_Click(object sender, EventArgs e) { }
 
         private void btnValidar_Click(object sender, EventArgs e)
         {
             string usuario = TxtUsuario.Text.Trim();
-            string contraseña = txtPassword.Text.Trim();
+            string contrasena = txtPassword.Text.Trim();
 
-            using (var conn = DBHelper.GetConnection())
+            try
             {
-                try
+                if (_servicioUsuario.ValidarCredenciales(usuario, contrasena))
                 {
-                    conn.Open();
-                    string query = "SELECT COUNT(*) FROM usuarios WHERE usuario = @usuario AND contraseña = @contraseña";
-                    using (var cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@usuario", usuario);
-                        cmd.Parameters.AddWithValue("@contraseña", contraseña);
-
-                        int count = Convert.ToInt32(cmd.ExecuteScalar());
-                        if (count > 0)
-                        {
-                            // Usuario y contraseña correctos
-                            FrmPrincipal principal = new FrmPrincipal(usuario);
-                            principal.Show();
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Usuario o Contraseña incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
+                    FrmPrincipal principal = new FrmPrincipal(usuario);
+                    principal.Show();
+                    this.Hide();
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show("Error al conectar con la base de datos: " + ex.Message);
+                    MessageBox.Show("Usuario o contrase�a incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al conectar con la base de datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

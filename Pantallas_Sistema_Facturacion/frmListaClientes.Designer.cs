@@ -1,4 +1,4 @@
-﻿namespace Pantallas_Sistema_Facturacion
+﻿namespace 
 {
     partial class frmListaClientes
     {
@@ -61,7 +61,7 @@
             this.btnBuscar.Depth = 0;
             this.btnBuscar.Icon = null;
             this.btnBuscar.Location = new System.Drawing.Point(439, 196);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Primary = true;
@@ -69,13 +69,14 @@
             this.btnBuscar.TabIndex = 1;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtBuscarCliente
             // 
             this.txtBuscarCliente.Depth = 0;
             this.txtBuscarCliente.Hint = "Buscar por Cliente";
             this.txtBuscarCliente.Location = new System.Drawing.Point(41, 212);
-            this.txtBuscarCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuscarCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuscarCliente.MaxLength = 32767;
             this.txtBuscarCliente.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtBuscarCliente.Name = "txtBuscarCliente";
@@ -96,7 +97,7 @@
             this.btnNuevo.Depth = 0;
             this.btnNuevo.Icon = null;
             this.btnNuevo.Location = new System.Drawing.Point(935, 196);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Primary = true;
@@ -114,7 +115,7 @@
             this.btnSalir.Depth = 0;
             this.btnSalir.Icon = null;
             this.btnSalir.Location = new System.Drawing.Point(945, 495);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Primary = true;
@@ -131,7 +132,7 @@
             this.EDITAR,
             this.BORRAR});
             this.dgClientes.Location = new System.Drawing.Point(41, 267);
-            this.dgClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgClientes.Margin = new System.Windows.Forms.Padding(4);
             this.dgClientes.Name = "dgClientes";
             this.dgClientes.RowHeadersWidth = 51;
             this.dgClientes.Size = new System.Drawing.Size(981, 207);
@@ -167,7 +168,7 @@
             this.Controls.Add(this.txtBuscarCliente);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.materialLabel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmListaClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista Clientes";

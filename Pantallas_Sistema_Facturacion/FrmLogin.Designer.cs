@@ -1,4 +1,4 @@
-﻿namespace Pantallas_Sistema_Facturacion
+﻿namespace 
 {
     partial class FrmLogin
     {
@@ -52,7 +52,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Pantallas_Sistema_Facturacion.Properties.Resources.ImgLogo;
+            this.pictureBox1.Image = global::.Properties.Resources.ImgLogo;
             this.pictureBox1.Location = new System.Drawing.Point(16, 15);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
